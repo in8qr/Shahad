@@ -121,6 +121,23 @@ body {
   animation: fadeUp 1.2s 0.45s ease-out both;
 }
 
+.signature {
+  margin-top: 2rem;
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  font-style: italic;
+  color: rgba(255, 248, 245, 0.5);
+  letter-spacing: 0.04em;
+  animation: fadeUp 1.2s 0.75s ease-out both;
+}
+
+.signature-name {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.35em;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--rose);
+}
+
 .heart-btn {
   margin-top: 2.5rem;
   width: 3.5rem;
